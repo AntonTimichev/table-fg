@@ -1,0 +1,82 @@
+.container {
+  display: flex;
+  width: 100%;
+}
+
+.wrapper {
+  width: 700px;
+  margin-left: auto;
+}
+
+.table-container {
+  height: 340px;
+  margin: 10px 0;
+}
+
+.table-list {
+  font-size: 14px;
+  width: 700px;
+  border: solid 1px black;
+  border-collapse: collapse;
+}
+
+.table-list td,
+.table-list th {
+  border: solid 1px black;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.table-list td:last-child,
+.table-list th:last-child {
+  width: 240px;
+}
+
+.table-list th {
+  padding: 10px 0;
+}
+
+.table-list td {
+  padding: 5px 0;
+}
+
+.crumbs {
+  width: 100px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.crumbs button:not(:last-child) {
+  margin-right: 10px;
+}
+
+.user-container {
+  align-self: center;
+  padding-top: 50px;
+  width: 200px;
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-size: 14px;
+  text-align: left;
+}
+
+.load-btn {
+  position: absolute;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+}
+
+.cell-id:hover {
+  background-color: bisque;
+  cursor: pointer;
+}
+
+.sort-btn:hover {
+  background-color: red;
+  cursor: pointer;
+}
